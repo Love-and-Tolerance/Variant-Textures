@@ -1,27 +1,11 @@
 {
 	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/sculk_vein_2",
+		"sculk_vein": "block/sculk_vein_2"
+	},
 	"elements": [
 		{
-			"faces": {
-				"north": {
-					"texture": "#sculk_vein",
-					"uv": [
-						0,
-						0,
-						16,
-						16
-					]
-				},
-				"south": {
-					"texture": "#sculk_vein",
-					"uv": [
-						0,
-						0,
-						16,
-						16
-					]
-				}
-			},
 			"from": [
 				0,
 				0,
@@ -31,11 +15,27 @@
 				16,
 				16,
 				0.1
-			]
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#sculk_vein"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#sculk_vein"
+				}
+			}
 		}
-	],
-	"textures": {
-		"particle": "block/sculk_vein_2",
-		"sculk_vein": "block/sculk_vein_2"
-	}
+	]
 }
